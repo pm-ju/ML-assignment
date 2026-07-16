@@ -1,4 +1,4 @@
-# Assignment
+# My Assignment
 
 Multimodal fashion and context retrieval using CLIP embeddings, garment regions, color profiles, scene scoring, and constraint reranking.
 
@@ -15,7 +15,7 @@ The implementation improves over a plain CLIP search by separating the query int
 ## Project Structure
 
 ```text
-ML-assignment/
+ML-assigment/
 |-- data/
 |   |-- build_metadata.py
 |   `-- prepare_dataset.py
@@ -31,8 +31,11 @@ ML-assignment/
 |   `-- retriever.py
 |-- eval/
 |   |-- evaluate.py
+|   |-- llm_judge_results.md
+|   |-- llm_judge_prompt.md
 |   `-- queries.json
 |-- output/
+|-- assignment_report.tex
 |-- main.py
 |-- visualize.py
 |-- pyproject.toml
@@ -46,6 +49,8 @@ python -m venv venv
 venv\Scripts\activate
 pip install -e .
 ```
+
+If Torch or TorchVision is already installed globally and causes import errors, create a fresh virtual environment and install this project there. The code is intended to run fully locally after dependencies and model weights are available.
 
 ## Dataset
 
@@ -83,8 +88,28 @@ python visualize.py
 ## Evaluate
 
 ```bash
-python -m eval.evaluate --index output\index.pkl --queries eval\queries.json
+python -m eval.evaluate --index output\index.pkl --queries eval\queries.json --k 10 --ks 1,3,5,10 --threshold 0.75
 ```
+
+The evaluator reports average constraint score, proxy Recall@1/3/5/10, Hit@K, and latency per query.
+
+For comparison with another saved result JSON:
+
+```bash
+python -m eval.evaluate --index output\index.pkl --queries eval\queries.json --baseline path\to\result.json --k 10 --ks 1,3,5,10 --threshold 0.75
+```
+
+## LLM-as-Judge
+
+Generate the visualization first:
+
+```bash
+python visualize.py
+```
+
+Then use `eval/llm_judge_prompt.md` with a multimodal LLM and upload `output/visualization.png`. This gives an additional human-like relevance check for garment, color, binding, context, and overall quality.
+
+The current LLM judge output is recorded in `eval/llm_judge_results.md`.
 
 ## Method
 

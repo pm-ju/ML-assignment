@@ -1,4 +1,4 @@
-# Pritish Assignment
+# Assignment
 
 Multimodal fashion and context retrieval using CLIP embeddings, garment regions, color profiles, scene scoring, and constraint reranking.
 
@@ -15,7 +15,7 @@ The implementation improves over a plain CLIP search by separating the query int
 ## Project Structure
 
 ```text
-pritish_assigment/
+
 |-- data/
 |   |-- build_metadata.py
 |   `-- prepare_dataset.py

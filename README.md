@@ -15,7 +15,7 @@ The implementation improves over a plain CLIP search by separating the query int
 ## Project Structure
 
 ```text
-
+ML-assignment/
 |-- data/
 |   |-- build_metadata.py
 |   `-- prepare_dataset.py

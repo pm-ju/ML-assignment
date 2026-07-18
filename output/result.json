@@ -1,0 +1,584 @@
+{
+  "queries": [
+    {
+      "query": "A person in a bright yellow raincoat.",
+      "retrieved": [
+        {
+          "id": "10566",
+          "score": 0.6362,
+          "parts": {
+            "base": 0.3005,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\de8af016793ce1f2170e1ae785ed78ee.jpg"
+        },
+        {
+          "id": "12889",
+          "score": 0.6287,
+          "parts": {
+            "base": 0.286,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\e636280e96f3863157a4398c92fc299e.jpg"
+        },
+        {
+          "id": "17610",
+          "score": 0.6259,
+          "parts": {
+            "base": 0.2806,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\ef9dae290756a8dbcb1cde404da00a1a.jpg"
+        },
+        {
+          "id": "16116",
+          "score": 0.6206,
+          "parts": {
+            "base": 0.2704,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\b246457b56c522682a2400286ca834ec.jpg"
+        },
+        {
+          "id": "18529",
+          "score": 0.6154,
+          "parts": {
+            "base": 0.2604,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\eb001cb29f156112d158a52621e70964.jpg"
+        },
+        {
+          "id": "20599",
+          "score": 0.6125,
+          "parts": {
+            "base": 0.2548,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\3cc19299f6a1bd07ce4bb07dfe2a6112.jpg"
+        },
+        {
+          "id": "9136",
+          "score": 0.6111,
+          "parts": {
+            "base": 0.2522,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\3f18271f3f7d101e2f9a27b0b12b034b.jpg"
+        },
+        {
+          "id": "11803",
+          "score": 0.602,
+          "parts": {
+            "base": 0.2345,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 1.0
+          },
+          "path": "data\\test\\c9946804239bdb74aa23c4a56445b9a8.jpg"
+        },
+        {
+          "id": "13414",
+          "score": 0.5985,
+          "parts": {
+            "base": 0.2651,
+            "garment": 1.0,
+            "color": 0.9034,
+            "scene": 1.0
+          },
+          "path": "data\\test\\963999a4ce820148817057ade3cc956d.jpg"
+        },
+        {
+          "id": "11775",
+          "score": 0.5969,
+          "parts": {
+            "base": 0.253,
+            "garment": 1.0,
+            "color": 0.9268,
+            "scene": 1.0
+          },
+          "path": "data\\test\\7be5e15df33ddfd91374e7f3236b0933.jpg"
+        }
+      ],
+      "latency_ms": 349.5
+    },
+    {
+      "query": "Professional business attire inside a modern office.",
+      "retrieved": [
+        {
+          "id": "12674",
+          "score": 0.6097,
+          "parts": {
+            "base": 0.2736,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8744
+          },
+          "path": "data\\test\\1ca4458d23522f006de2ffda045c3b44.jpg"
+        },
+        {
+          "id": "10984",
+          "score": 0.6079,
+          "parts": {
+            "base": 0.267,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8904
+          },
+          "path": "data\\test\\cd0f34921f96592811ff3a3776fa0444.jpg"
+        },
+        {
+          "id": "10822",
+          "score": 0.5969,
+          "parts": {
+            "base": 0.2508,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8653
+          },
+          "path": "data\\test\\26168da8556dab9641084df526c39ced.jpg"
+        },
+        {
+          "id": "9575",
+          "score": 0.5962,
+          "parts": {
+            "base": 0.2524,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8494
+          },
+          "path": "data\\test\\609b9fc370f7c98fbb6a41baf72664a1.jpg"
+        },
+        {
+          "id": "2083",
+          "score": 0.5961,
+          "parts": {
+            "base": 0.2606,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8061
+          },
+          "path": "data\\test\\7fc8a54146a81b33f348f21ad07fa141.jpg"
+        },
+        {
+          "id": "12729",
+          "score": 0.5961,
+          "parts": {
+            "base": 0.2519,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8509
+          },
+          "path": "data\\test\\89144779b3e40421facdb2eb70309356.jpg"
+        },
+        {
+          "id": "9174",
+          "score": 0.5939,
+          "parts": {
+            "base": 0.2496,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8416
+          },
+          "path": "data\\test\\70e000fc740fd51671f257453e5d4ef1.jpg"
+        },
+        {
+          "id": "9481",
+          "score": 0.5938,
+          "parts": {
+            "base": 0.249,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.843
+          },
+          "path": "data\\test\\4d3fd642c9d08290f6262759a51d252f.jpg"
+        },
+        {
+          "id": "13395",
+          "score": 0.5928,
+          "parts": {
+            "base": 0.2498,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8289
+          },
+          "path": "data\\test\\4dc413ef5a47c5da696ba2f72835e6ed.jpg"
+        },
+        {
+          "id": "18208",
+          "score": 0.5927,
+          "parts": {
+            "base": 0.2478,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.838
+          },
+          "path": "data\\test\\c9d696c1abd41188c49b0a88ed46161e.jpg"
+        }
+      ],
+      "latency_ms": 337.2
+    },
+    {
+      "query": "Someone wearing a blue shirt sitting on a park bench.",
+      "retrieved": [
+        {
+          "id": "9895",
+          "score": 0.6074,
+          "parts": {
+            "base": 0.2726,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8563
+          },
+          "path": "data\\test\\fa6fe8a772afec21850eaf4cf5fc72fd.jpg"
+        },
+        {
+          "id": "12251",
+          "score": 0.6044,
+          "parts": {
+            "base": 0.2679,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8507
+          },
+          "path": "data\\test\\d14b58173e059b7d5592cc3eb115e1a4.jpg"
+        },
+        {
+          "id": "11791",
+          "score": 0.6037,
+          "parts": {
+            "base": 0.2651,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8584
+          },
+          "path": "data\\test\\ecb9073d265f18598c61f21d10098339.jpg"
+        },
+        {
+          "id": "10222",
+          "score": 0.6029,
+          "parts": {
+            "base": 0.2824,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.761
+          },
+          "path": "data\\test\\97d77f8581dbbd6534ffd92e382b0700.jpg"
+        },
+        {
+          "id": "16331",
+          "score": 0.6018,
+          "parts": {
+            "base": 0.2699,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8141
+          },
+          "path": "data\\test\\d941732e5b6c817f7981cf6831c103a0.jpg"
+        },
+        {
+          "id": "16006",
+          "score": 0.601,
+          "parts": {
+            "base": 0.2684,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8141
+          },
+          "path": "data\\test\\39fc64de6a2304536b0cf18e4de97f98.jpg"
+        },
+        {
+          "id": "13560",
+          "score": 0.6007,
+          "parts": {
+            "base": 0.2744,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.7799
+          },
+          "path": "data\\test\\b360c19580caf49e561173fab54bfdb2.jpg"
+        },
+        {
+          "id": "16962",
+          "score": 0.6003,
+          "parts": {
+            "base": 0.268,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8094
+          },
+          "path": "data\\test\\90b68fc59a4b48dad4be10eeaef7205f.jpg"
+        },
+        {
+          "id": "16004",
+          "score": 0.6001,
+          "parts": {
+            "base": 0.2628,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8346
+          },
+          "path": "data\\test\\7ecf591cf3e21e72ea2718e3869f5768.jpg"
+        },
+        {
+          "id": "11985",
+          "score": 0.5991,
+          "parts": {
+            "base": 0.2724,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.7746
+          },
+          "path": "data\\test\\69640e5766614b3121e9d389350067c0.jpg"
+        }
+      ],
+      "latency_ms": 473.9
+    },
+    {
+      "query": "Casual weekend outfit for a city walk.",
+      "retrieved": [
+        {
+          "id": "10000",
+          "score": 0.6123,
+          "parts": {
+            "base": 0.2746,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8954
+          },
+          "path": "data\\test\\5a45019f91a09b34caad0730b77f281d.jpg"
+        },
+        {
+          "id": "9575",
+          "score": 0.6103,
+          "parts": {
+            "base": 0.2696,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.9016
+          },
+          "path": "data\\test\\609b9fc370f7c98fbb6a41baf72664a1.jpg"
+        },
+        {
+          "id": "18833",
+          "score": 0.6071,
+          "parts": {
+            "base": 0.2635,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.9003
+          },
+          "path": "data\\test\\5446d1fd42c4c2baac5bc3ae647b2f7d.jpg"
+        },
+        {
+          "id": "17449",
+          "score": 0.6062,
+          "parts": {
+            "base": 0.2647,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8856
+          },
+          "path": "data\\test\\3641da2171647a07f88dae8d53c9a6a3.jpg"
+        },
+        {
+          "id": "12921",
+          "score": 0.6054,
+          "parts": {
+            "base": 0.2658,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8714
+          },
+          "path": "data\\test\\fa3e88c6a313433dd7884ce0abb5d27e.jpg"
+        },
+        {
+          "id": "18895",
+          "score": 0.6052,
+          "parts": {
+            "base": 0.2642,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8784
+          },
+          "path": "data\\test\\3bf082a96a03a1c8f75e1d1d0ebf42d2.jpg"
+        },
+        {
+          "id": "10544",
+          "score": 0.6048,
+          "parts": {
+            "base": 0.262,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8857
+          },
+          "path": "data\\test\\75850809cabb412eb28ff5b9c732cc5e.jpg"
+        },
+        {
+          "id": "9895",
+          "score": 0.6047,
+          "parts": {
+            "base": 0.2609,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8907
+          },
+          "path": "data\\test\\fa6fe8a772afec21850eaf4cf5fc72fd.jpg"
+        },
+        {
+          "id": "10531",
+          "score": 0.6045,
+          "parts": {
+            "base": 0.2606,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8896
+          },
+          "path": "data\\test\\33cfdcbd48019b09e36a78c428bbae1d.jpg"
+        },
+        {
+          "id": "15729",
+          "score": 0.6044,
+          "parts": {
+            "base": 0.2629,
+            "garment": 1.0,
+            "color": 1.0,
+            "scene": 0.8773
+          },
+          "path": "data\\test\\3a87ce99efb87686869fdb390cc5ef0c.jpg"
+        }
+      ],
+      "latency_ms": 313.4
+    },
+    {
+      "query": "A red tie and a white shirt in a formal setting.",
+      "retrieved": [
+        {
+          "id": "19326",
+          "score": 0.5484,
+          "parts": {
+            "base": 0.2419,
+            "garment": 1.0,
+            "color": 0.7784,
+            "scene": 0.869
+          },
+          "path": "data\\test\\6096b12d8fc996b65b4b9947b18502ca.jpg"
+        },
+        {
+          "id": "18791",
+          "score": 0.5155,
+          "parts": {
+            "base": 0.2759,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8201
+          },
+          "path": "data\\test\\b95dae1ed0c598a38d17906e9b27dabe.jpg"
+        },
+        {
+          "id": "11217",
+          "score": 0.5139,
+          "parts": {
+            "base": 0.2701,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8346
+          },
+          "path": "data\\test\\42668f83c24465ba79d25eb2a8790050.jpg"
+        },
+        {
+          "id": "18821",
+          "score": 0.5116,
+          "parts": {
+            "base": 0.2788,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.7656
+          },
+          "path": "data\\test\\50ebf72d1294ac64c8ff95ba81d05be7.jpg"
+        },
+        {
+          "id": "19875",
+          "score": 0.5114,
+          "parts": {
+            "base": 0.266,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8306
+          },
+          "path": "data\\test\\f89405533537dc196ae40e5ec36b2b08.jpg"
+        },
+        {
+          "id": "10149",
+          "score": 0.5076,
+          "parts": {
+            "base": 0.2555,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8473
+          },
+          "path": "data\\test\\bd4c2ae0478c2162033a02216e394604.jpg"
+        },
+        {
+          "id": "10544",
+          "score": 0.5055,
+          "parts": {
+            "base": 0.2633,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.7856
+          },
+          "path": "data\\test\\75850809cabb412eb28ff5b9c732cc5e.jpg"
+        },
+        {
+          "id": "11532",
+          "score": 0.5045,
+          "parts": {
+            "base": 0.2553,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8176
+          },
+          "path": "data\\test\\3745efe8958e34ca0e5dbab9362a68da.jpg"
+        },
+        {
+          "id": "16027",
+          "score": 0.5026,
+          "parts": {
+            "base": 0.2503,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8243
+          },
+          "path": "data\\test\\f0ac4ba410f7dd70272184ff5fe4b5ce.jpg"
+        },
+        {
+          "id": "17658",
+          "score": 0.5015,
+          "parts": {
+            "base": 0.2509,
+            "garment": 0.5,
+            "color": 1.0,
+            "scene": 0.8104
+          },
+          "path": "data\\test\\65cb75a24d64e835888e2824b1baaacc.jpg"
+        }
+      ],
+      "latency_ms": 612.7
+    }
+  ]
+}

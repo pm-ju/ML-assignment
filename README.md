@@ -50,6 +50,8 @@ venv\Scripts\activate
 pip install -e .
 ```
 
+Download the fashion dataset and put it into as `test` folder in `data` directory
+
 If Torch or TorchVision is already installed globally and causes import errors, create a fresh virtual environment and install this project there. The code is intended to run fully locally after dependencies and model weights are available.
 
 ## Dataset
